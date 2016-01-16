@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+      <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="js/codescript.js"></script>
+      <script src="js/sweetalert.min.js"></script>
+      <title>Security Question Strength Indicator</title>
+   </head>
+   <body>
+      <div id="container">
+         <h1>Security Question Strength Indicator</h1>
+         <form>
+            <ul>
+               <br></br>
+               <li>The questions you select will be asked when you need to recover your account if you forget your password.  <strong>You need to set five security questions</strong>, three from the list given below, two of your own choice.</li>
+               <br></br>
+               <div id="question1">
+                  <li>Please Select your first Security Question from the list below.</li>
+                  <br></br>
+               </div>
+               <div id="question2">
+                  <li>Please Select your second Security Question from the list below.</li>
+                  <br></br>
+               </div>
+               <div id="question3">
+                  <li>Please Select your third Security Question from the list below.</li>
+                  <br></br>
+               </div>
+               <div id="question4">
+                  <li>Please set your own question as security question four.</li>
+                  <li>
+                     Set a security question of your own. This question needs to be a personal question which need not be memorized. This should be personal information known only to you.
+                  </li>
+                  <div  class="questionsample">
+                     <li>
+                        For an example, 
+                     </li>
+                     <li> <strong>Your wedding anniversary</strong> is not a good security question, known to everybody!!</li>
+                     <li> <strong>The first movie you watched with you spouse </strong>would be a good security question</li>
+                     <li>
+                     </li>
+                  </div>
+                  <li>
+                     <label for="question">Your own security question :</label>
+                  </li>
+                  <li>
+                     <span><input id="question" class=question type="text" name="question" /></span>
+                  </li>
+                  </li>
+               </div>
+               <div id="question5">
+                  <li>Please set your own question as security question five.</li>
+                  <li>
+                     Set a security question of your own. This question needs to be a personal question which need not be memorized. This should be personal information known only to you.
+                  </li>
+                  <div  class="questionsample">
+                     <li>
+                        Set a strong security question of your own.. 
+                     </li>
+                  </div>
+                  <li>
+                     <label for="question">Your own security question :</label>
+                  </li>
+                  <li>
+                     <span><input id="question" class=question type="text" name="question" /></span>
+                  </li>
+                  </li>
+               </div>
+               <div id="dropdownlist">
+                  <li>
+                     <select id="question" name="Please Select your Security Question">
+                        <option value="Q1" selected>My Mother's maiden name</option>
+                        <option value="Q2">My first vehicle</option>
+                        <option value="Q3">My first salary</option>
+                        <option value="Q4">My pet's name</option>
+                        <option value="Q5">My spouse's name</option>
+                        <option value="Q6">My First Child was born on</option>
+                        <option value="Q7">My graduation date</option>
+                        <option value="Q8">My favourite song</option>
+                        <option value="Q9">My favourite holiday location</option>
+                        <option value="Q10">My favourite drink</option>
+                        <option value="Q9">The first movie I watched</option>
+                        <option value="Q9">My favourite Dessert</option>
+                        <option value="Q9">My favourite brand of chocolate</option>
+                        <option value="Q9">My favourite musical band</option>
+                        <option value="Q9">My favourite tv series</option>
+                        <option value="Q9">My favourite teacher at high school</option>
+                        <option value="Q9">My favourite actor</option>
+                        <option value="Q9">My favourite sport</option>
+                     </select>
+                  </li>
+               </div>
+               <div id="setYourOwn">
+               </div>
+               <li>
+                  <label for="pswd">Answer to the question :</label>
+                  <span><input id="pswd" type="text" name="pswd" /></span>
+               </li>
+               <div id="buttondiv1">
+                  <li>
+                     <button id="next_button1" type="button">Next >></button>
+                  </li>
+               </div>
+               <div id="buttondiv2">
+                  <li>
+                     <button id="next_button2" type="button">Next >></button>
+                  </li>
+               </div>
+               <div id="buttondiv3">
+                  <li>
+                     <button id="next_button3" type="button">Next >></button>
+                  </li>
+               </div>
+               <div id="buttondiv4">
+                  <li>
+                     <button id="next_button4" type="button">Next >></button>
+                  </li>
+               </div>
+               <div id="buttondiv5">
+                  <li>
+                     <button id="next_button5" type="button">Finish</button>
+                  </li>
+               </div>
+            </ul>
+         </form>
+      </div>
+      <div id="pswd_info">
+         <h4 id="heading" class="invalid">Strength of your answer : </h4>
+         <ul>
+            <li id="letter" class="invalid">Contains at least <strong>one letter</strong></li>
+            <li id="capital" class="invalid">Contains at least  <strong>one capital letter</strong></li>
+            <li id="specialchar" class="invalid">Contains at least <strong>one special character</strong></li>
+            <li id="number" class="invalid">Contains at least <strong>one number</strong></li>
+            <li id="length" class="invalid">Is at least <strong>8 characters</strong> in length</li>
+         </ul>
+         <br></br>
+         <div id="progressBar">
+            <div class="meterred"></div>
+         </div>
+      </div>
+   </body>
+</html>
+
