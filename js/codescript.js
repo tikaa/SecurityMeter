@@ -111,7 +111,7 @@ $(document).ready(function() {
    swal({
      html: true,
      title: "Having a hard time figuring out a strong answer? ",
-     text: "<li >Look at this sample : </li><br></br> <li ><strong>Question : What is your favorite sport?<strong></li> <li ><strong>Weak answer : Cricket<strong></li> <li ><strong>A Strong        			Answer : SLCs260r@T-20J<strong></li><br></br> <li >This is how you remember it</li><li > Sri Lanka Cricket scored 260 runs at T-20 Johannesburg (highest T-20 score record)</li><br></br>",
+     text: "<li >Look at this sample : </li><br></br> <li ><strong>Question : What is your favorite sport?</strong></li><li ><strong>A Strong Answer : Crick@Australia</strong></li><br></br><li > Your favourite game is cricket, and your favourite cricket team is the Australian cricket team.</li><br></br>",
      confirmButtonText: "Let me Retry",
      cancelButtonText: "Next Question",
      showCancelButton: true,
@@ -140,8 +140,8 @@ $(document).ready(function() {
   } else {
    swal({
      html: true,
-     title: "You need more help for a Stronger Answer ? ",
-     text: " <li ><strong>Question : Your mother's maiden name ?<strong></li> <li ><strong>Weak answer : Brown<strong></li> <li ><strong>A Strong Answer : BrownUntil89@Syd<strong></li><br></br> <li >Still don't get it?</li><li >  Her surname remained Brown until she got married in 1989 in Sydney</li><br></br>",
+     title: "Your answer is not strong enough.. ",
+     text: " <li ><strong>Question : Your mother's maiden name ?</strong></li><li ><strong>A Strong Answer : BrownUntil89@Syd</strong></li><br></br><li >  Her surname remained Brown until she got married in 1989 in Sydney</li><br></br>",
      confirmButtonText: "Let me Retry",
      cancelButtonText: "Next Question",
      showCancelButton: true,
@@ -173,8 +173,8 @@ $(document).ready(function() {
   } else {
    swal({
      html: true,
-     title: " Need Help ? ",
-     text: "<li ><strong>Question : Your pet's name ?<strong></li> <li ><strong>Weak answer : woofy <strong></li> <li ><strong>A Strong Answer : WoofyDog@95<strong></li><br></br> <li >How you remember it</li><li >  Your pet Woofy is a dog born in 1995</li><br></br>",
+     title: "Your answer is weak.. ",
+     text: "<li ><strong>Question : Your pet's name ?</strong></li><li ><strong>A Strong Answer : WoofyDog@95</strong></li><br></br><li >  Your pet Woofy is a dog born in 1995</li><br></br>",
      confirmButtonText: "Let me Retry",
      cancelButtonText: "Next Question",
      showCancelButton: true,
@@ -209,7 +209,7 @@ $(document).ready(function() {
    swal({
      html: true,
      title: "Let's look at another sample for a stronger answer",
-     text: "<li >Example Question : </li><br></br> <li ><strong>Question : Who was your childhood hero?<strong></li> <li ><strong>Weak answer : Robin Hood<strong></li> <li ><strong>A Strong        			Answer : Robin@Sherwood7<strong></li><br></br> <li >And the queue would be</li><li > Robin hood of Sherwood, and I first heard of him when I was 7 years old</li><br></br>",
+     text: "<li >Example Question : </li><br></br> <li ><strong>Question : Who was your childhood hero?</strong></li><li ><strong>A Strong Answer : Robin@Sherwood7</strong></li><br></br><li > Robin hood of Sherwood, and I first heard of him when I was 7 years old</li><br></br>",
      confirmButtonText: "Let me Retry",
      cancelButtonText: "Next Question",
      showCancelButton: true,
@@ -243,8 +243,8 @@ $(document).ready(function() {
   } else {
    swal({
      html: true,
-     title: "Need help ?",
-     text: "<li >Example Question : </li><br></br> <li ><strong>Question : What was the first 3D movie you watched?<strong></li> <li ><strong>Weak answer : JurasicWorld<strong></li> <li ><strong>A 		          Strong        			Answer : JurasicW@Majestic2015<strong></li><br></br> <li >It would be hard to guess the movie you watched with the location and the year right? </li><br></br>",
+     title: "Your answer needs to be stronger..",
+     text: "<li >Example Question : </li><br></br> <li ><strong>Question : What was the first 3D movie you watched?</strong></li><li ><strong>A Strong Answer : JurasicW@Majestic2015</strong></li><br></br> <li >It would be hard to guess the movie you watched with the location and the year! </li><br></br>",
      confirmButtonText: "Let me Retry",
      cancelButtonText: "Let me Finish",
      showCancelButton: true,
